@@ -1,0 +1,10 @@
+query Fruit($fruitId: ID!) {
+    fruit(id: $fruitId) {
+        id
+        scientific_name
+        tree_name
+        fruit_name
+        description
+        climatic_zone
+    }
+}

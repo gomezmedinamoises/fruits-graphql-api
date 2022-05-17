@@ -1,0 +1,10 @@
+query FruitsList {
+    fruits {
+        id
+        scientific_name
+        tree_name
+        fruit_name
+        description
+        climatic_zone
+    }
+}
